@@ -1,4 +1,5 @@
 /* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* _______________________________________________________________ */
 
@@ -9,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 /* _______________________________________________________________ */
 
@@ -18,7 +20,69 @@
 /* _______________________________________________________________ */
 
 /* Main CSS */
+body {
+    background: #002339;
+    color: #fff;
+}
 
+.container {
+    margin: 12%;
+    width: min(88% 40em);
+}
+
+.display {
+    width: min(100%, 45em);
+    margin-top: 3em;
+    margin-bottom: 2em;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25em;
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+}
+
+.display img {
+    width: 2em;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+}
+
+.container button img {
+    width: 1em;
+    margin-right: 0.8em;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
 /* _______________________________________________________________ */
 /* Media Queries */
 @media() {
